@@ -549,60 +549,37 @@ const experience = {
       title: "Other Experience",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
+          title: "Cell Therapy Specialist II",
+          company: "Catalent Pharma Solutions",
+          company_url: "https://www.catalent.com/",
           logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          duration: "Sep 2021 - Feb 2023",
+          location: "Webster, Texas",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "I worked in the Cell and Gene Therapy department of the company. I was involved in the production of many cell therapy projects that were trying to improve human's life and seeking ways to cure cancer.",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
+          title: "Scientist I",
+          company: "Becton Dickinson",
+          company_url: "https://bd.com/",
           logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          duration: "Mar 2020 - Aug 2021",
+          location: "San Diego, California",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "I was involved in BD's Veritor project where I contributed my effort into making the company's rapid SAR-CoV-2 rapid test kit.",
           color: "#D83B01",
         },
         {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
+          title: "Research Associate",
+          company: "La Jolla Pharmaceuticals Company",
+          company_url: "",
           logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+          duration: "Mar 2019 - Dec 2019",
+          location: "San Diego, California",
           description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+            "As a research associate at La Jolla, I had many opportunities to conduct researches on multiple drug molecule analyses.",
           color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
         },
       ],
     },
@@ -679,13 +656,13 @@ const contactPageData = {
     description:
       "If you have any questions, please feel free to connect with me on LinkedIn and/or send me an email.",
   },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  //   link: "https://blogs.ashutoshhathidara.com/",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
+  blogSection: {
+    title: "Blogs",
+    subtitle:
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    link: "https://blogs.ashutoshhathidara.com/",
+    avatar_image_path: "blogs_image.svg",
+  },
   addressSection: {
     title: "Address",
     subtitle: "Bryan-College Station Metropolitan Area",
