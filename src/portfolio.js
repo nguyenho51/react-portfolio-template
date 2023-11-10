@@ -196,13 +196,6 @@ const skills = {
             color: "#663399",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
       ],
     },
     {
@@ -249,13 +242,6 @@ const skills = {
             color: "#336791",
           },
         },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#47A248",
-        //   },
-        // },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -300,7 +286,6 @@ const skills = {
   ],
 };
 
-/*
 // Education Page
 const competitiveSites = {
   competitiveSites: [
@@ -354,7 +339,6 @@ const competitiveSites = {
     },
   ],
 };
-*/
 
 const degrees = {
   degrees: [
@@ -368,6 +352,7 @@ const degrees = {
         "⚡ Obtained fundamental and advanced knowledges in computer science subjects such as Data Structures, Algorithms, AI, Machine Learning, Concurrency",
         "⚡ Relevant Courses: Deep Learning, Machine Learning, Online Learning and Optimization, Parallel Systems, Android Programming.",
       ],
+      website_link: "http://ucsd.edu",
     },
     {
       title: "University of California, San Diego",
@@ -379,11 +364,11 @@ const degrees = {
         "⚡ Obtained fundamental knowledges in chemical processes, thermodynamics concepts and a basic level of programming skill.",
         "⚡ Relevant Courses: MATLAB Programming, Probability and Statistical Methods for Engineers",
       ],
+      website_link: "http://utexas.edu",
     },
   ],
 };
 
-/*
 const certifications = {
   certifications: [
     {
@@ -413,97 +398,42 @@ const certifications = {
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Data Science",
+    //   subtitle: "- Alex Aklson",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Big Data",
+    //   subtitle: "- Kim Akers",
+    //   logo_path: "microsoft_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+    //   alt_name: "Microsoft",
+    //   color_code: "#D83B0199",
+    // },
+    // {
+    //   title: "Advanced Data Science",
+    //   subtitle: "- Romeo Kienzler",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
   ],
 };
-*/
 
 // Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked in the Biopharmaceutical industry for more than four years under different roles ranging from laboratory research associate to scientist. I recently started working as a software development engineer at Bryan Research and Engineering under their development department, with an emphasis in chemical process simulation.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -660,7 +590,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://hashnode.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -672,6 +602,7 @@ const contactPageData = {
     postalCode: "",
     streetAddress: "",
     avatar_image_path: "address_image.svg",
+    location_map_link: "https://maps.app.goo.gl/qftbuWuKMSJnE6b78",
     // location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
@@ -686,9 +617,9 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  // competitiveSites,
+  competitiveSites,
   degrees,
-  // certifications,
+  certifications,
   experience,
   projectsHeader,
   // publicationsHeader,
